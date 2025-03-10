@@ -4,16 +4,16 @@ public class Main {
         // Please write your code here.
 
         Scanner sc=new Scanner(System.in);
-        int[] nums = new int[10];
-        int sum=0;
+        char[] texts = new char[10];
+       
         for(int i=0;i<10;i++){
-            nums[i]=sc.nextInt();
+            texts[i]=sc.next().charAt(0);
 
         }
         for(int i=0;i<10;i++){
-            sum+=nums[i];
+             System.out.print(texts[9-i]);
 
         }
-        System.out.print(sum);
+       
     }
 }
