@@ -16,7 +16,7 @@ public class Main {
             sum+=num[i];
         }
         if(num[9]<250){
-             System.out.printf("%d %.1f",sum,(sum/(double)i));
+             System.out.printf("%d %.1f",sum,(sum/10.0));
         }
     }
 }
