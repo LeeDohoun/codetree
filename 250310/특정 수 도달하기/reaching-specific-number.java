@@ -17,8 +17,8 @@ public class Main {
             }
             sum+=num[i];
         }
-        if(touch != 1)[
+        if(touch != 1){
             System.out.printf("%d %.1f",sum,(sum/10.0));
-        ]
+        }
     }
 }
