@@ -16,7 +16,7 @@ public class Main {
     for(int i=0;i<num;i++){
         sum+=arr[i];
     }
-    System.out.print(sum+" "+(double)sum/(num));
+    System.out.printf("%d %.1f",sum,(double)sum/(num));
     sc.close();
     
     
