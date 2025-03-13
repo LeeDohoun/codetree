@@ -8,8 +8,7 @@ public class Main {
     }
     public static void printstar(int n){
         if(n==0)return;
-        printstar(n--);
-        
+        printstar(--n);
         System.out.print(n);
     }
 }
