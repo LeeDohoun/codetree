@@ -9,7 +9,7 @@ public class Main {
     public static void printstar(int n){
         if(n==0)return;
         printstar(--n);
-        for(int i=1;i<=n;i++){
+        for(int i=1;i<=n+1;i++){
             System.out.print("*");
         }
         System.out.println();
