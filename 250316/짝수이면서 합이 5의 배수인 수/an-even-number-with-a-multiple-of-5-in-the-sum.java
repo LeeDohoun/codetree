@@ -8,8 +8,10 @@ public class Main {
     }
 
     public static void magic(int n){
+        int ten=n/10;
+        int one=n%10;
         if(n%2 ==0){
-            if(n%5 == 0) System.out.print("YES");
+            if((ten+one)%5 == 0) System.out.print("Yes");
             else System.out.print("No");
         }
 
