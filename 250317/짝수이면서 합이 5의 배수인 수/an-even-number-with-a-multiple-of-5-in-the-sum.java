@@ -14,10 +14,8 @@ public class Main {
             n/=10;
 
         }
-        if(n%2 ==0){
             if(sum%5 == 0) System.out.print("Yes");
             else System.out.print("No");
-        }
 
     }
 }
