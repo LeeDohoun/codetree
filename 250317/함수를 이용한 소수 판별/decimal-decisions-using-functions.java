@@ -13,6 +13,7 @@ public class Main {
         int psum=0;
         for(int i=A;i<=B;i++){
             int count=0;
+            if(i<2) count=1; 
             for(int j=2;j<i;j++){
                 if(i%j==0) count=1; 
             }
