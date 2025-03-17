@@ -9,13 +9,20 @@ public class Main {
 
     public static void magic(int n){
         int sum=0;
+        int m=n;
         while(n!=0){
             sum+=n%10;
             n/=10;
 
         }
+        if(m%2==0){
             if(sum%5 == 0) System.out.print("Yes");
             else System.out.print("No");
+        }
+        else
+        {
+            System.out.print("No");
+        }
 
     }
 }
