@@ -15,14 +15,43 @@ public class Main {
                 }
 
         if(3<=m&&m<=5){
+            if(m==4){
+                if(d==31)
+                System.out.print(-1);
+                else{
+                    System.out.print("Spring");
+                }
+            }else {
                 System.out.print("Spring");
+            }
            
         }
         else if(6<=m&&m<=8){
-            System.out.print("Summer");
+            if(m==6){
+                if(d==31)
+                {
+                    System.out.print(-1);
+                    
+                }
+                else{
+                    System.out.print("Summer");
+                }
+
+            }else {System.out.print("Summer");
+            }
         }
         else if(9<=m&&m<=11){
-            System.out.print("Fall");
+            if(m==9||m==11){
+                if(d==31)
+                {
+                    System.out.print(-1);
+                }
+                else{
+                    System.out.print("Fall");
+                }
+            }
+            else {
+                System.out.print("Fall");}
         }
         else if(12==m||m<=2)
         {
