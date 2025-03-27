@@ -10,6 +10,11 @@ public class Main {
                 if(j!=i){
                     if(A.charAt(i) == A.charAt(j)) count=0;
                 }
+                else if(j==i){
+                    if(count ==1){
+                        fullcount+=count;
+                    }
+                }
             }
             fullcount+=count;
         }
